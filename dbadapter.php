@@ -8,7 +8,7 @@ class dbadapter
 
     function __construct(){
         date_default_timezone_set("America/Boise");
-        $this-> conn = mysqli_connect("localhost","root","94d548bb171","researchdb");
+        $this-> conn = mysqli_connect("localhost","root","","");
 
 
     }

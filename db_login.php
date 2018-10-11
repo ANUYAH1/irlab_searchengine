@@ -1,6 +1,6 @@
 <?php
-$db_host = "localhost:3036";
-$db_username = "root";
+$db_host = "";
+$db_username = " ";
 $db_password = " ";
 $db_database="querylogs";
 $conn = mysql_connect($db_host, $db_username, $db_password);
